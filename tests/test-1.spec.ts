@@ -31,19 +31,19 @@ test('Does Package price match Total price', async ({ page }) => {
   //expect(totalSum).toEqual(packageSubTotalShipping);
 
   // await page.locator('input[name="card_number"]').click();
-  // await page.locator('input[name="card_number"]').fill('0000 0000 0000 00000');
+  // await page.locator('input[name="card_number"]').fill('@@@@ @@@@ @@@@ @@@@');
   // await page.locator('input[name="expiration"]').click();
-  // await page.locator('input[name="expiration"]').fill('10/25');
+  // await page.locator('input[name="expiration"]').fill('@@/@@');
   // await page.locator('input[name="card_cvc"]').click();
-  // await page.locator('input[name="card_cvc"]').fill('0000');
+  // await page.locator('input[name="card_cvc"]').fill('@@@@');
   // await page.getByLabel('First Name').click();
   // await page.getByLabel('First Name').fill('Romuald');
   // await page.locator('div').filter({ hasText: /^Last Name$/ }).nth(1).click();
   // await page.getByLabel('Last Name').fill('C');
   // await page.getByLabel('Email Address').click();
-  // await page.getByLabel('Email Address').fill('romuald.c@commercecore.com');
+  // await page.getByLabel('Email Address').fill('----@-----.com');
   // await page.getByPlaceholder('34567').click();
-  // await page.getByPlaceholder('34567').fill('604 06039');
+  // await page.getByPlaceholder('34567').fill('@@@@@@@');
   // await page.getByLabel('Address', { exact: true }).click();
   // await page.getByLabel('Address', { exact: true }).fill('Gedimino g. 20');
   // await page.getByLabel('City').click();
